@@ -11,12 +11,14 @@ fruits = []
 
 
 
+
 func firstItem(items: [String]) -> String? {
     if items.isEmpty {
         return nil
     }
     return items[0]
 }
+
 
 fruits = ["apple", "banana", "grape"]
 firstItem(items: fruits)
